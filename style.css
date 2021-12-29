@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Righteous&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(http://cdn.eso.org/images/screen/eso1213a.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    margin: auto;
+    margin-top: 120px;
+    width: 200px;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 16px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    border: solid 4px #857612bd;
+    background-color: #252525b9;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.342);
+}
+
+section:hover {
+    border: solid 4px #857612cc;
+    transition: 1s;
+}
+
+p {
+    margin-top: 10px;
+    color: white;
+}
+
+#txtn {
+    outline: none;
+    width: 97px;
+    border: solid 1px #8576120e;
+    padding-left: 5px;
+}
+
+#button {
+    width: 163px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #857612c5;
+    color: white;
+    outline: none;
+    border: solid 1px rgba(220, 220, 220, 0.315);
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bolder;
+    font-size: 8pt;
+}
+
+#button:hover {
+    background-color: #857612ef;
+    transition: 0.5s;
+}
+
+#res {
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.685);
+    padding-top: 10px;
+}
